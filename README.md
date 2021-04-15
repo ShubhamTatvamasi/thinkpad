@@ -1,5 +1,10 @@
 # thinkpad
 
+Check your network hardware:
+```bash
+lspci | grep Network
+```
+
 Network controller: Intel Corporation Wireless-AC 9462
 
 Download Wifi Driver: https://wireless.wiki.kernel.org/_media/en/users/drivers/iwlwifi-9000-pu-b0-jf-b0-34.618819.0.tgz
