@@ -21,3 +21,8 @@ sudo service network-manager restart
 
 Source: https://www.intel.com/content/www/us/en/support/articles/000005511/wireless.html
 
+
+Enable Fingerprint authentication:
+```bash
+sudo pam-auth-update
+```
